@@ -272,6 +272,13 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0fidi9tpu3ep-artifactory-primary-0-releases</name>
+        <url>https://buttaarchana.jfrog.io/artifactory/default-libs-release</url>
+    </repository>
+</distributionManagement>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
